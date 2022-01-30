@@ -23,6 +23,26 @@ load_date,symbol,open_price,highest_price,lowest_price,close_price
 * `lowest_price` - наименьшая цена за период;
 * `close_price` - цена закрытия периода.
 
+## Перед началом работы
+
+Сборка проекта производится с помощью sbt.
+
+Указываются название и версия проекта.
+Указывается используемая версия языка Scala.
+
+Далее подключаются 2 зависимости: Spark Core и Spark SQL версии 3.2.0.
+
+```scala
+name := "spark_example_scala"
+version := "1.0.0"
+scalaVersion := "2.12.12"
+
+libraryDependencies ++= Seq(
+  ("org.apache.spark" %% "spark-core" % "3.2.0"),
+  ("org.apache.spark" %% "spark-sql" % "3.2.0")
+)
+```
+
 ## Разбор кода
 
 В каком пакете лежит код (аналогично Java).

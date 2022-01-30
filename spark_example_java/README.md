@@ -23,6 +23,27 @@ load_date,symbol,open_price,highest_price,lowest_price,close_price
 * `lowest_price` - наименьшая цена за период;
 * `close_price` - цена закрытия периода.
 
+## Перед началом работы
+
+Через Maven необходимо подключить 2 зависимости: Spark Core и Spark SQL версии 3.2.0.
+Стоит отметить, что в ```artifactId``` после названия версии артефакта
+указывается требуемая версия языка Scala.
+
+```xml
+<dependencies>
+    <dependency>
+        <groupId>org.apache.spark</groupId>
+        <artifactId>spark-sql_2.12</artifactId>
+        <version>3.2.0</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.spark</groupId>
+        <artifactId>spark-core_2.12</artifactId>
+        <version>3.2.0</version>
+    </dependency>
+</dependencies>
+```
+
 ## Разбор кода
 
 В каком пакете лежит код.

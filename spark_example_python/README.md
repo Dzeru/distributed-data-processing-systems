@@ -23,7 +23,7 @@ load_date,symbol,open_price,highest_price,lowest_price,close_price
 * `lowest_price` - наименьшая цена за период;
 * `close_price` - цена закрытия периода.
 
-## Разбор кода
+## Перед началом работы
 
 Перед началом работы необходимо установить PySpark.
 
@@ -43,6 +43,8 @@ pip install findspark
 import findspark
 findspark.init()
 ```
+
+## Разбор кода
 
 Импортируем нужные модули для работы с SQL, функциями и типами Spark. 
 Также импортируем модуль ```sys``` для обращения к аргументам консоли.
