@@ -1,4 +1,4 @@
-# Scala
+# Spark Example Scala
 
 ## Исходный файл
 
