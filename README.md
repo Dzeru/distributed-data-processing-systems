@@ -8,11 +8,12 @@
 * __spark_example_java__ - пример простейшего приложения Spark на языке Java.
 * __spark_example_python__ - пример простейшего приложения Spark на языке Python.
 * __spark_example_scala__ - пример простейшего приложения Spark на языке Scala. 
+* __spark_example_file_formats__ - сравнение выходных форматов данных при работе Spark.
 
 ## Исходный файл
 
 Данные для примеров 
-__spark_example_java__, __spark_example_python__, и __spark_example_scala__ 
+__spark_example_java__, __spark_example_python__, __spark_example_scala__ и __spark_example_file_formats__ 
 содержатся в файле _agg_symbols.csv_.
 
 ```
