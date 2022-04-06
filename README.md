@@ -9,6 +9,7 @@
 * __spark_example_python__ - пример простейшего приложения Spark на языке Python.
 * __spark_example_scala__ - пример простейшего приложения Spark на языке Scala. 
 * __spark_example_file_formats__ - сравнение выходных форматов данных при работе Spark.
+* __spark_example_coalesce_repartition__ - сравнение работы coalesce и repartition в Spark.
 
 ## Исходный файл
 
